@@ -1,15 +1,41 @@
 {
-    "name": "spatie/mailcoach",
+    "name": "1986webdeveloper/maillit",
     "type": "project",
-    "description": "Self-host Mailcoach",
+    "description": "Self-host maillit",
     "keywords": [
-        "mailcoach",
-        "spatie"
+        "maillit"
     ],
-    "repositories": [
+    "repositories":[
         {
-            "type": "composer",
-            "url": "https://satis.spatie.be"
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-editor"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-mailgun-feedback"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-markdown-editor"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-monaco"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-postmark-feedback"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-sendgrid-feedback"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-sendinblue-feedback"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-ses-feedback"
+        },{
+            "type": "vcs",
+            "url": "https://github.com/1986webdeveloper/laravel-maillit-unlayer"
         }
     ],
     "require": {
@@ -18,7 +44,7 @@
         "laravel/framework": "^9.19",
         "laravel/horizon": "^5.10",
         "laravel/tinker": "^2.7",
-        "spatie/laravel-mailcoach": "^6.0"
+        "1986webdeveloper/laravel-maillit": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
